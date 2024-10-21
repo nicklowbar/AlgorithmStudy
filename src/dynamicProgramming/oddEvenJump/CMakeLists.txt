@@ -13,6 +13,8 @@ project(${CURRENT_FOLDER})
 # Specify the source files
 set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/oddEvenJump.cpp)
 
+message(STATUS "Source files: ${SOURCE_FILES}")
+
 # Add the executable
 add_executable(${CURRENT_FOLDER} ${SOURCE_FILES})
 
