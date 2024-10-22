@@ -3,7 +3,9 @@ get_filename_component(CURRENT_FOLDER ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 
 message("Configuring: ${CURRENT_FOLDER}")
 
-set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/printHelper.cpp)
+set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/printHelper.cpp
+                 ${CMAKE_CURRENT_SOURCE_DIR}/logHelper.cpp
+    )
 
 message(STATUS "Source files: ${SOURCE_FILES}")
 

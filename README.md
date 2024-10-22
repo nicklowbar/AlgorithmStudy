@@ -6,11 +6,17 @@ This project primarily implements these algorithms using C++ 20 language feature
 
 ## Table of Contents
 
+- [Array Algorithms](#array-algorithms)
 - [Sorting Algorithms](#sorting-algorithms)
 - [Search Algorithms](#search-algorithms)
 - [Graph Algorithms](#graph-algorithms)
 - [Dynamic Programming](#dynamic-programming)
 - [Other Algorithms](#other-algorithms)
+
+## Array Algorithms
+
+A collection of various array traversal based algorithms
+See [Array Algorithms](./src/array/)
 
 ## Sorting Algorithms
 
