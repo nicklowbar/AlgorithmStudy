@@ -9,8 +9,9 @@ message("Configuring: ${CURRENT_FOLDER}")
 # Set the project name
 project(${CURRENT_FOLDER})
 
+
 # Specify the source files
-set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/fruitIntoBaskets.cpp)
+set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/longestSubstringWithoutRepeatingCharacters.cpp)
 
 message(STATUS "Source files: ${SOURCE_FILES}")
 
