@@ -58,7 +58,7 @@ int maxProfit(vector<int>& prices) {
     return maxProfit;
 }
 
-int main(){
+int main() {
     auto runTestCase([](vector<int> prices, int expected) {
         auto result = maxProfit(prices);
         cout << "Input: " << utils::printVector(prices) << endl;

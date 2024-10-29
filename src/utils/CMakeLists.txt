@@ -5,6 +5,7 @@ message("Configuring: ${CURRENT_FOLDER}")
 
 set(SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/printHelper.cpp
                  ${CMAKE_CURRENT_SOURCE_DIR}/logHelper.cpp
+                 ${CMAKE_CURRENT_SOURCE_DIR}/treeNode.cpp
     )
 
 message(STATUS "Source files: ${SOURCE_FILES}")
