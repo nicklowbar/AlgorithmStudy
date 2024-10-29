@@ -28,11 +28,11 @@ public:
 #ifndef MEMOIZED_MAP
     #define MEMOIZED_MAP 2
 #endif
-#ifndef MEMOIZED_ARRAY
-    #define MEMOIZED_ARRAY 3
+#ifndef DP_MEMOIZED_ARRAY
+    #define DP_MEMOIZED_ARRAY 3
 #endif
 
-#define USE_SOLUTION MEMOIZED_ARRAY
+#define USE_SOLUTION DP_MEMOIZED_ARRAY
 
 #if USE_SOLUTION==NAIEVE
     vector<int> treeQueries(TreeNode* root, vector<int>& queries) {
@@ -149,7 +149,7 @@ public:
         return result;
     }
 #endif
-#if USE_SOLUTION==MEMOIZED_ARRAY
+#if USE_SOLUTION==DP_MEMOIZED_ARRAY
 
     int maxDepth[100001]; // we have max 10^5 values we can encounter, use a flat array to store their max depth.
     int maxCurrentDepth = 0; // use a global variable to store the max depth as we traverse without needing closures.
