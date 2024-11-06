@@ -10,6 +10,7 @@ This project primarily implements these algorithms using C++ 20 language feature
 - [Sorting Algorithms](#sorting-algorithms)
 - [Search Algorithms](#search-algorithms)
 - [Graph Algorithms](#graph-algorithms)
+- [Backtracking Algorithms](#backtracking-algorithms)
 - [Dynamic Programming](#dynamic-programming)
 - [Other Algorithms](#other-algorithms)
 
@@ -32,6 +33,11 @@ See [Search Algorithms](./src/search/)
 
 A collection of various graph algorithms.
 See [Graph Algorithms](./src/graph/)
+
+## Backtracking Algorithms
+
+A collection of various backtracking algorithms.
+See [Backtracking Algorithms](./src/backtracking/)
 
 ## Dynamic Programming
 
