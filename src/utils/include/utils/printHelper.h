@@ -21,6 +21,20 @@ namespace utils
         return result;
     }
 
+    template <typename T = std::string>
+    std::string printVector(std::vector<T>& vec)
+    {
+        std::string result = "[";
+        for (int i = 0; i < vec.size(); i++) {
+            result += vec[i];
+            if (i < vec.size() - 1) {
+                result += ", ";
+            }
+        }
+        result += "]";
+        return result;
+    }
+
     template <typename...Args>
     std::string printStack(std::stack<Args...>& stk)
     {
